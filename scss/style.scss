@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1016px;
+  margin: 0 auto;
+  padding: 0 16px;
+  svg {
+    margin-top: 20px;
+  }
+}
+.mod {
+  background-color: #000;
+  color: #fff;
+}
+body {
+  background-color: #fafafa;
+}
+header {
+  h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.section__content {
+  display: flex;
+  gap: 100px;
+  align-items: start;
+  .new {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-top: 80px;
+      padding-bottom: 20px;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: sans-serif;
+    }
+    input {
+      margin-bottom: 20px;
+      padding: 10px 300px 10px 10px;
+      border: 1px solid #e2e2e2;
+      border-radius: 5px;
+      outline: none;
+    }
+    ::placeholder {
+      font-family: sans-serif;
+      color: #8c8f96;
+      font-size: 15px;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      color: #fff;
+      font-size: 15px;
+      background-color: #008efd;
+      font-family: sans-serif;
+      border-radius: 5px;
+    }
+  }
+
+  .contactWin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .del {
+      display: flex;
+      align-items: center;
+      gap: 20px 20px;
+      .delete {
+        margin-top: 80px;
+        padding: 10px;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        background-color: #ff0000;
+        font-family: sans-serif;
+        border-radius: 5px;
+      }
+      h2 {
+        font-family: sans-serif;
+        margin-top: 100px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  #result {
+    .contact {
+      margin-bottom: 20px;
+      border: 1px solid #008efd !important;
+      text-align: start;
+      border-radius: 5px;
+      width: 290px;
+      height: 95px;
+      padding-left: 10px;
+      padding-top: 10px;
+      background-color: #ffffff;
+      gap: 20px;
+    }
+  }
+}
